@@ -17,7 +17,8 @@ import qualified Data.Text.Lazy as TL
 import           Control.Monad.State
 import           System.Exit
 
-import           Data.CaseInsensitive
+import           Data.CaseInsensitive.Eq
+import           Data.CaseInsensitive.Ord
 
 
 main = do

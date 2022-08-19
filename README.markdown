@@ -68,7 +68,8 @@ Here is a sample:
     module Main ( main ) where
 
     import           Data.List
-    import           Data.CaseInsensitive
+    import           Data.CaseInsensitive.Eq
+    import           Data.CaseInsensitive.Ord
     import qualified Data.ByteString.Char8 as BS
 
     main = do

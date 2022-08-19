@@ -44,7 +44,6 @@ source-repository this
 library
     exposed-modules:      Data.CaseInsensitive.Eq
                         , Data.CaseInsensitive.Ord
-                        , Data.CaseInsensitive
 
 -- Consider commenting out the previous line to avoid an impolite naming
 -- conflict with the case-insensitive package. If building with cabal, a naming
